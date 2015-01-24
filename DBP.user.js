@@ -43,7 +43,7 @@ function getClass(string) {
  * http://stackoverflow.com/a/18681207                                        *
  * ...For the next update! :D                                                 *
  ******************************************************************************/
-var obtrusiveHeader = getId("globalNavPageNavArea");
+var obtrusiveHeader           = getId("globalNavPageNavArea");
 obtrusiveHeader.style.display = 'none';
 
 /******************************************************************************

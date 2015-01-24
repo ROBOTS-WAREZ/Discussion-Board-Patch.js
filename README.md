@@ -8,3 +8,5 @@ Download it by clicking on the "DBP.user.js" file (to view the source code) and 
 * Will automatically expand and mark posts as read when scrolled over.
 * Hides the big white navigational toolbar from the top, making the content area larger.
 * Keeps the main navigational sidebar on the screen at all times, even while it's minimised.
+
+Tampermonkey is untested.

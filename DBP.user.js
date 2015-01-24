@@ -17,7 +17,7 @@
  *    Shyam NATH - "Shyam Has Your Anomaly Mitigated! :D" (recursive bacronym)*
  *                                                                            *
  * Last Modified:                                                             *
- *    2015-01-25 01:13:41                                                     *
+ *    2015-01-25 01:17:26                                                     *
  ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 /******************************************************************************
@@ -54,7 +54,7 @@ autoMarker.style.overflow = 'visible';
 autoMarker.style.height   = '100%';
 
 /******************************************************************************
- * Force posts to expand as the user scrolls over them.                       *
+ * Forces posts to expand as the user scrolls over them.                       *
  ******************************************************************************/
 window.addEventListener("scroll", expandAllMessagesInTheTree, false);
 

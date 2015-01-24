@@ -17,12 +17,12 @@
  *    Shyam NATH - "Shyam Has Your Anomaly Mitigated! :D" (recursive bacronym)*
  *                                                                            *
  * Last Modified:                                                             *
- *    2015-01-25 00:03:48                                                     *
+ *    2015-01-25 00:37:32                                                     *
  ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 /******************************************************************************
  * Function retrieves the element with the ID of string.                      *
- * Trevor posted this in the Web Programming discussion board.                *
+ * Trevor Reynolds posted this in the Web Programming discussion board.       *
  ******************************************************************************/
 function getId(string) {
   return document.getElementById(string);

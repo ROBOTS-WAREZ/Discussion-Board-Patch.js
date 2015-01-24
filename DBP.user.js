@@ -17,7 +17,7 @@
  *    Shyam NATH - "Shyam Has Your Anomaly Mitigated! :D" (recursive bacronym)*
  *                                                                            *
  * Last Modified:                                                             *
- *    2015-01-25 01:17:26                                                     *
+ *    2015-01-25 02:00:31                                                     *
  ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 /******************************************************************************
@@ -61,7 +61,7 @@ window.addEventListener("scroll", expandAllMessagesInTheTree, false);
 /******************************************************************************
  * Keeps the useful side-bar navigational tool on the screen at all times.    *
  *                                                                            *
- * Fails to work on the Web Programming "conference" pages for unkown reasons.*
+ * Fails to work on the "conference" pages for unkown reasons.*
  * Manual input from the console behaves predictably though...                *
  ******************************************************************************/
 var navBox            = getId("navigationPane");
@@ -71,7 +71,7 @@ navBox.style.top      = '55px';
 /******************************************************************************
  * Keeps the Quick Links attached to the useful side-bar navigational tool.   *
  *                                                                            *
- * Fails to work on the Web Programming "conference" pages for unkown reasons.*
+ * Fails to work on the "conference" pages for unkown reasons.*
  * Manual input from the console behaves predictably though...                *
  ******************************************************************************/
 var quickLinks            = getId("quick_links_wrap");
@@ -82,7 +82,7 @@ quickLinks.style.top      = '55px';
  * Keeps the drop-down menu and logout buttons on the screen in the top-right *
  * corner.                                                                    *
  *                                                                            *
- * Fails to work on the Web Programming "conference" pages for unkown reasons.*
+ * Fails to work on the "conference" pages for unkown reasons.*
  * Manual input from the console behaves predictably though...                *
  ******************************************************************************/
 var buttons               = getClass("global-nav-bar-wrap");

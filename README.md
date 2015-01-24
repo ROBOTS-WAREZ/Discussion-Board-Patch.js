@@ -5,4 +5,4 @@ Usage: Greasemonkey (Iceweasel/Firefox) or Tampermonkey (Chromium/Chrome).
 
 * Will automatically expand and mark posts as read when scrolled over.
 * Removes the big white nav bar from the top, making the content area larger.
-* Keeps the main navigational toolbar on the screen at all times.
+* Keeps the main navigational toolbar on the screen at all times, even while it's minimised.

@@ -17,7 +17,7 @@
  *    Shyam NATH - "Shyam Has Your Anomaly Mitigated! :D" (recursive bacronym)*
  *                                                                            *
  * Last Modified:                                                             *
- *    2015-01-25 02:00:31                                                     *
+ *    2015-01-25 09:48:39                                                     *
  ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 /******************************************************************************
@@ -47,7 +47,9 @@ var obtrusiveHeader           = getId("globalNavPageNavArea");
 obtrusiveHeader.style.display = 'none';
 
 /******************************************************************************
- * Marks posts as read, posts must be expanded.                               *
+ * Allows the vertical scroll position to increment as the content area is    *
+ * essentially framed, allowing posts to be automatically marked as read,     *
+ * posts must be in the expanded state for the autonomous marking to occur.   *
  ******************************************************************************/
 var autoMarker            = getId("globalNavPageContentArea");
 autoMarker.style.overflow = 'visible';

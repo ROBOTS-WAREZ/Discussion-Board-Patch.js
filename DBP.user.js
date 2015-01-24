@@ -17,7 +17,7 @@
  *    Shyam NATH - "Shyam Has Your Anomaly Mitigated! :D" (recursive bacronym)*
  *                                                                            *
  * Last Modified:                                                             *
- *    2015-01-25 09:48:39                                                     *
+ *    2015-01-25 09:53:45                                                     *
  ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 /******************************************************************************
@@ -50,6 +50,7 @@ obtrusiveHeader.style.display = 'none';
  * Allows the vertical scroll position to increment as the content area is    *
  * essentially framed, allowing posts to be automatically marked as read,     *
  * posts must be in the expanded state for the autonomous marking to occur.   *
+ * The auto_mark_read.js file is responsible for this functionality.          *
  ******************************************************************************/
 var autoMarker            = getId("globalNavPageContentArea");
 autoMarker.style.overflow = 'visible';

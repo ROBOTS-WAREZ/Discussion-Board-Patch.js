@@ -17,7 +17,7 @@
  *    Shyam NATH - "Shyam Has Your Anomaly Mitigated! :D" (recursive bacronym)*
  *                                                                            *
  * Last Modified:                                                             *
- *    2015-01-25 09:53:45                                                     *
+ *    2015-01-26 03:58:06                                                     *
  ** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 /******************************************************************************
@@ -52,9 +52,9 @@ obtrusiveHeader.style.display = 'none';
  * posts must be in the expanded state for the autonomous marking to occur.   *
  * The auto_mark_read.js file is responsible for this functionality.          *
  ******************************************************************************/
-var autoMarker            = getId("globalNavPageContentArea");
-autoMarker.style.overflow = 'visible';
-autoMarker.style.height   = '100%';
+var contentArea            = getId("globalNavPageContentArea");
+contentArea.style.overflow = 'visible';
+contentArea.style.height   = '100%';
 
 /******************************************************************************
  * Forces posts to expand as the user scrolls over them.                       *
